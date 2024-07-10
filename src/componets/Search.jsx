@@ -5,13 +5,13 @@ import { IoSearch } from "react-icons/io5";
 const Search = () => {
   return (
     <div className="flex items-center border rounded-lg overflow-hidden">
-      <span className="material-icons text-black px-2">
+      <span className="material-icons text-black px-2 bg-white p-3">
       <IoSearch/>
       </span>
       <input
         type="text"
         placeholder="Type here..."
-        className="outline-none p-2"
+        className="outline-none p-2 bg-white"
       />
     </div>
   );
